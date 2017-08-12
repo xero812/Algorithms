@@ -1,3 +1,5 @@
+package trash;
+
 /*
 
 1

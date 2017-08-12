@@ -1,3 +1,5 @@
+package trash;
+
 import java.util.TreeSet;
 import java.util.Scanner;
 

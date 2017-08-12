@@ -1,3 +1,5 @@
+package trash;
+
 
 import java.util.Scanner;
 
@@ -11,7 +13,7 @@ import java.util.Scanner;
  *
  * @author Adesh Srivastava
  */
-public class Pattern
+public class VVPattern
 {
     public static void main(String[] args)
     {
@@ -19,12 +21,23 @@ public class Pattern
         int n=sc.nextInt();
         for (int i = 1; i <= n; i++)
         {
-            for (int j = 1; j <= i; j++)
+            for (int j = 1; j <= n; j++)
             {
-                if(j==i)
-                System.out.print(i);
+                if(i%2!=0)
+                {
+                    if(j%2==0)
+                        System.out.print("\\");
+                    else
+                        System.out.print("/");
+                }
                 else
-                    System.out.print(i+"_");
+                {
+                        if(j%2==0)
+                        System.out.print("/");
+                    else
+                        System.out.print("\\");
+                
+                }
             }
             System.out.println();
         }

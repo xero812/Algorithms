@@ -1,3 +1,5 @@
+package trash;
+
 
 import java.util.Scanner;
 
@@ -11,19 +13,25 @@ import java.util.Scanner;
  *
  * @author Adesh Srivastava
  */
-public class NewClass6
+public class OLX1
 {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        int sH=sc.nextInt();
-        int sM=sc.nextInt();
-        int sS=sc.nextInt();
-        int eH=sc.nextInt();
-        int eM=sc.nextInt();
-        int eS=sc.nextInt();
-        
-
+        int n=sc.nextInt();
+        for (int i = 0; i < n; i++)
+        {
+            switch(sc.next().charAt(0))
+            {
+                case 'S':
+                    
+                    break;
+                case 'Q':
+                    break;
+                
+                
+            }
+        }
     }
     
 }

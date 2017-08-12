@@ -1,6 +1,4 @@
-
-import java.io.File;
-import java.util.Hashtable;
+package trash;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -12,18 +10,19 @@ import java.util.Hashtable;
  *
  * @author Adesh Srivastava
  */
-public class NewClass3
+public class NewClass5
 {
     public static void main(String[] args)
     {
-        Hashtable t=new Hashtable();
-        t.put("A", new Integer(3));
-        t.put("B", new Integer(2));
-        t.put("C", new Integer(8));
-        t.remove(new String("A"));
-        System.out.println(t);
+        int a = 0;
+        System.out.println(a);
+    }
+    
+    public static int print(long j)
+    {
+        System.out.println("1");
         
-        
+        return 1;
     }
     
 }
